@@ -22,14 +22,14 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
 		alert('Thank you for your message. We will contact you soon.');
-		window.location = 'contact.html';
+		window.location = 'doula-contact.html';
 	</script>
 <?php
 }
 else { ?>
 	<script language="javascript" type="text/javascript">
 		alert('Message failed. Please send an email to webmaster@wholebundle.com');
-		window.location = 'contact.html';
+		window.location = 'doula-contact.html';
 	</script>
 <?php
 }
