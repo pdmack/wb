@@ -14,8 +14,8 @@ $body_message .= 'Phone: '.$field_phone."\n";
 $body_message .= 'Due date: '.$field_duedate."\n";
 $body_message .= 'Message: '.$field_message;
 
-$headers = 'From: '.$field_email."\r\n";
-$headers .= 'Reply-To: '.$field_email."\r\n";
+$headers = 'From: webmaster@wholebundle.com"\r\n';
+$headers .= 'Reply-To: webmaster@wholebundle.com"\r\n';
 
 $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
