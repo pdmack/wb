@@ -28,10 +28,10 @@ $mail->AddReplyTo($field_email, $field_name);
 $mail->SetFrom($field_email, 'The Whole Bundle');
 $mail->AddAddress('contact@wholebundle.com');  
  
-$mail->Subject  = 'Whole Bundle Inquiry from '.$field_name;
+$mail->Subject  = 'Inquiry from '.$field_name;
 $mail->Body     = $body_message;
-$mail->WordWrap = 50;  
- 
+$mail->WordWrap = 50;
+
 if($mail->Send()){ ?>
 	<script language="javascript" type="text/javascript">
 		alert('Thank you for your message. We will contact you soon.');
