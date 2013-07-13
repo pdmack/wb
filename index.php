@@ -5,7 +5,7 @@ if ($detect->isMobile() && isset($_COOKIE['mobile']))
 {
 $detect = "false";
 }
-elseif ($detect->isMobile())
+elseif (!$detect->isTablet() && $detect->isMobile())
 {
 header("Location: http://m.wholebundle.com/");
 }
