@@ -1,0 +1,7 @@
+# Alt 1
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html?$ /index.php [NC,R,L]
+
+# Alt 2
+#RedirectMatch "^/index\.html/?$" "http://dev.wholebundle.com/index.php"
