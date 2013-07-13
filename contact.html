@@ -64,22 +64,26 @@ while(x=eval(x));
 		 		 		</li>
 					</ul>
 					<hr class="separator"/>
-					<form action="#" method="post" class="contact-form">
+					<form action="contact.php" method="post" class="contact-form">
 					    <div>
 					         <label for="name">Name <span class="red">*</span></label>
-					         <input type="text" name="name" id="name" value="" tabindex="1" />
+					         <input type="text" name="cf_name" id="name" value="" tabindex="1" />
 					    </div>
 						<div>
 					         <label for="phone">Phone <span class="red">*</span></label>
-					         <input type="tel" name="phone" id="phone" value="" tabindex="1" />
+					         <input type="tel" name="cf_phone" id="phone" value="" tabindex="1" />
 					    </div>
 					    <div>
 					         <label for="email">Email <span class="red">*</span></label>
-					         <input type="email" name="email" id="email" value="" tabindex="1" />
+					         <input type="email" name="cf_email" id="email" value="" tabindex="1" />
+					    </div>
+					    <div>
+					         <label for="duedate">Due date </span></label>
+					         <input type="date" name="cf_duedate" id="date" value="" tabindex="1" />
 					    </div>
 					    <div>
 							<label for="Body">Message <span class="red">*</span></label>
-							<textarea cols="40" rows="8" name="Body" id="Body"></textarea>
+							<textarea cols="40" rows="8" name="cf_message" id="Body"></textarea>
 						</div>
 						<div>
 						    <input type="submit" value="Submit" />
