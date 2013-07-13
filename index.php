@@ -1,3 +1,15 @@
+<?php
+@include("./Mobile-Detect-2.6.3/Mobile_Detect.php");
+$detect = new Mobile_Detect();
+if ($detect->isMobile() && isset($_COOKIE['mobile']))
+{
+$detect = "false";
+}
+elseif ($detect->isMobile())
+{
+header("Location: http://m.wholebundle.com/");
+}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--
 Design by Free CSS Templates
