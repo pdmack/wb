@@ -22,7 +22,7 @@ $mail->Host = "ssl://smtp.gmail.com";
 $mail->Port = 465;
 $mail->SMTPAuth = true; // turn on SMTP authentication
 $mail->Username = "thewholebundle@gmail.com"; // SMTP username
-$mail->Password = "Werth0626"; // SMTP password 
+$mail->Password = "DoulA2006"; // SMTP password 
  
 $mail->AddReplyTo($field_email, $field_name);
 $mail->SetFrom($field_email, 'The Whole Bundle');
