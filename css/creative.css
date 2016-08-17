@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #DB93DA;
+  border-color: #BB88B6;
   border-width: 3px;
   max-width: 50px;
 }
@@ -23,7 +23,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #DB93DA;
+  color: #BB88B6;
 }
 a:hover,
 a:focus {
@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #DB93DA;
+  background-color: #BB88B6;
 }
 .bg-dark {
   background-color: #222222;
@@ -70,7 +70,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #DB93DA;
+  color: #BB88B6;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -94,11 +94,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #DB93DA;
+  color: #BB88B6;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #DB93DA !important;
+  color: #BB88B6 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -130,7 +130,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #DB93DA;
+    color: #BB88B6;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -143,7 +143,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #DB93DA;
+    color: #BB88B6;
   }
 }
 header {
@@ -158,6 +158,8 @@ header {
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
 }
 header .header-content {
   position: relative;
@@ -180,6 +182,12 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+}
+header .header-content .header-content-inner img {
+  max-width: 110%;
+  height: auto;
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
 }
 @media (min-width: 768px) {
   header {
@@ -233,7 +241,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(219, 147, 218, 0.5);
+  background: rgba(187, 136, 182, 0.5);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -281,7 +289,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #DB93DA;
+  color: #BB88B6;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -337,8 +345,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #DB93DA;
-  border-color: #DB93DA;
+  background-color: #BB88B6;
+  border-color: #BB88B6;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -376,11 +384,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #DB93DA;
-  border-color: #DB93DA;
+  background-color: #BB88B6;
+  border-color: #BB88B6;
 }
 .btn-primary .badge {
-  color: #DB93DA;
+  color: #BB88B6;
   background-color: white;
 }
 .btn {
@@ -413,4 +421,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.img-responsive {
+  display: block;
+  width: auto;
+  height: auto;
 }
