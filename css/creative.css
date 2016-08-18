@@ -158,8 +158,8 @@ header {
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
-  -webkit-filter: brightness(70%);
-  -moz-filter: brightness(70%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
 }
 header .header-content {
   position: relative;

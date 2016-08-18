@@ -50,7 +50,7 @@
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background: #869791;
+	background: #BB88B6;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -75,5 +75,5 @@
 /* preloading images */
 .owl-item.loading{
 	min-height: 150px;
-	background: url(AjaxLoader.gif) no-repeat center center
+	background: url('../img/AjaxLoader.gif') no-repeat center center
 }
